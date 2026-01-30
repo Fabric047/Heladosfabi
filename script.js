@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-/* BUTTON TO SCROLL 'TILL THE TOP */
+/* BUTTON TO SCROLL*/
 window.onscroll = function() {
     scrollFunction();
 };
@@ -220,6 +220,7 @@ async function getTodayWeather(location, apiKey) {
         return null;
     }
 }
+
 
 
 
